@@ -1,3 +1,0 @@
-str = "prajwal raut"
-ch = str[1]
-print(ch)

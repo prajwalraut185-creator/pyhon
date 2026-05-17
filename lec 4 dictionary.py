@@ -1,90 +1,109 @@
-info = {
-    "key" : "value",
-    "name" : "prajwal",
-    "learning" : "apna college",
-    "answer" : False,
-    "dream" : "coder",
-    "action" : "ptyhon",
-    "list" : ["pyhton", "java", "java script", "c", "c++"],
-    "loops" : ("dictionary","set"),
-    12 : 90.9
+# school = {
+#     "bcca" : "prajwal",
+#     "b.com" : "ram",
+#     "bca" : "krishna",
+#     "mba" : "ayush",
+#     "mca" : "atharv",
+#     "m.com" : "mohit",
 
-}
-print(type(info))
+# }
 
-#muatable
+# print(type(school))
+# print(school)
 
-info = {
-    "name" : "prajwal",
-    "college" : "apna college",
-    "study" : "pyhton programming",
-    "goal" : "coder",
-    "happy" : "coading",
+# #muatable = change hou shkte
 
-}
+# salery = {
+#     "mca freshers" : 20000,
+#     "mba freshers" : 15000,
+#     "m.com" : 12000,
+#     "msc" : 14000,
+#     "d.frama" : 10000,
 
-info["name"] = "hai"
-print(info)
+# }
 
-#Nested dictionary
-college = {
-    "subject" : "account",
-    "college" : "sem mark",
-    "mark" :{
-        "first sem" : 89,
-        "second sem" : 99,
-        "third sem"  : 98,
-    }
-}
-print(college["mark"]["second sem"])
+# print(salery("mca freshers")) = 1200
+# print(salery)
 
-#dictionary method
-mark = {
-    "student" : "first sem",
-    "first student" : "second sem",
-    "second student" : "third sem",
-    "third student" : "final year",
+# #Nested dictionary
+# job = {
+#     "c++ developer" : "easy work",
+#     "java developer" : "medium work",
+#     "python developer": {
+#         "backend developer" : "sometimes hard work",
+#         "frontened developer" : "proper something work",
+#         "junior developer" : "any how minium work"
+#     }
+# }
 
-}
+# print(job["python developer"]["frontened developer"])
 
-print(len(mark))
-print(mark.keys())
+# #dictionary method
+# college = {
+#     "first year" : "any time free",
+#     "second time" : "maxium time free",
+#     "third year" : "minium time free",
+#     "working a any company" : "not more time free"
 
-mark = {
-    "entry" : "final account",
-    "transction" : "jounral entry",
-    "particulors" : "ammount",
+# }
+# print(len(college))
+# print(college.keys())
 
-}
+# mark = {
+#     "account" : 90,
+#     "statastic" : 98,
+#     "commercial law" : 97,
 
-print(mark.values())
-print(list(mark))
+# }
 
-mark = {
-   "student" : "topper",
-   "second"  : "avg",
-   "third" : "poor",
+# print(len(mark))
+# print(mark.values())
 
-}
+# pairs = mtlb hota hai kis bhi ek value ke idx number ko  search krna
 
-pairs = list(mark.values())
-print(pairs[0])
+# company = {
+#     "tata" : "famous",
+#     "realance" : "rich",
+#     "tcs" : "medium"
+# } 
 
-mark = {
-    "first topper" : 98,
-    "second topper" : 97.99,
-    "third topper" : 97.98
+# pairs  = list(company.values())
+# print(pairs[1])
 
-}
+# mark.get = mtlb uske keys ka " 12th" serch krke values nikalna
 
-print(mark.get("third topper"))
+# mark = {
+#     "10th" : 89,
+#     "12th" : 98,
+#     "first year" : 97,
 
-mark = {
-    "first percentage" : 90,
-    "second percentage" : 98,
-    "third percentage" : 99
+# }
 
-}
-new_dict = {"third percentage" : "91"}
-mark.update(new_dict)
-print(mark)
+# print(mark.get("10th"))
+
+# cricketer = {
+#     "first cricketer name" : "prajwal raut",
+#     "second cricketer name" : "rohit rathod",
+#     "third cricketer name" : "virat kohli"
+
+# }
+
+# name = {
+#     "name" : "prajwal raut",
+#     "mark" : 89,
+#     "admmission" : "bcca",
+#     "university" : "rtmu"
+
+# }
+
+# name.update({"name" : "rohit sharma"})
+# print(name)
+
+# name = {
+#     "class" : "another way",
+#     "mark" : "same",
+#     "name" : "artificial intelligence"
+    
+# }
+
+# print(name["mark"])

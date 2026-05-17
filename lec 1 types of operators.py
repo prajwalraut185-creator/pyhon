@@ -1,45 +1,53 @@
 
 #arithematic operators
-a = 8
-b = 9
 
-print(a + b)
-print(a - b)
-print(a * b)
-print(a / b)
-print(a % b)  #reminder
-print(a ** b) #power
-print(a // b) #floor division
+# a = 12
+# b = 3
+# c = 7
+
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+# print(a ** b) # power
+# print(a // b) # floor division
+# print(a % b) # remainder
 
 #realational operators
 
-a = int(input("enter first number: "))
-b = int(input("enter second number: "))
+# mark = int(input("enter number: "))
+# mark2 = int(input("enter number: "))
+# mark3 = int(input("enter number: "))
 
-print(a >= b)
-print(a <= b)
-print(a == b)
-print(a != b)
-print(a > b)
-print(a < b)
+# print(mark >= mark2 )
+# print(mark2 <= mark3 )
+# print(mark3 == mark )
+# print(mark3 != mark2)
+# print(mark3 > mark )
+# print(mark < mark2 )
 
-#logical operators
 
-a = 7
-b = 9
-print(not(a == b))
-print(not(a != b))
+# #logical operators
+# not
+# a = 3
+# b  = 4
 
-val1 = True
-val2 = True
-print("and operators:", a < b and b > a)
+# print(not(a == b))
+# print(not(a != b))
 
-val1 = False
-val2 = True
-print("or operators:", a == b or a != b)
+# # and 
+# val1 = True    # ek bhi condition false to result false
+# val2 = False
 
-#assignment operations
+# print("and operators", a == b and a != b)
 
-a = 9
-b += 6
+#  or
+# val1 = True
+# val2 = False
+# print("or operators", a > b or a < b) # do me se ek bhi condition true to condition  true
+
+# #assignment operations
+
+# a = 9
+# b += 6
 

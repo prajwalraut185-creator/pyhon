@@ -1,21 +1,10 @@
-str = "prajwal raut"
-ch = len(str[2])
-print(ch)
+name = "prajwal raut"
+b = name[1:3]
+print(b)
 
-str = "prajwal raut"
-print(str[1:3])
+name = "king"
+a = name[1:]
+print(a)
 
-str = "prajwal raut"
-print(str[3:7])
-
-str = "prjwal raut"
-print(str[:5])
-
-str = "prajwal raut"
-print(str[5:])
-
-str = "prajwal raut"
-print(str[4:len(str)])
-
-str = "prajwal raut"
-print(str[len (str):5])
+name = "opmtimzation"
+cloud = name[4:]

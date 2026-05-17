@@ -1,50 +1,44 @@
-light = "pink"
+# routine = input("enter daily routine: ")
 
-if(light == "red"): #if = agar
-    print("stop")
-elif(light == "green"): #elif = warna agar 
-    print("go")
-elif(light == "yellow"): #
-    print("look")
-else:
-    print("broken") #else = warna
+# if(routine == "consistancy"):
+#     success = "not"
 
+# elif(routine == "dicipline"):
+#     success = "all chance"
 
-age  = 12
+# elif(routine == "focus"):
+#     success = "high chance"
 
-if(age >= 18 ):
-    if(age >= 80):
-        print("cannot drive")
-    else:
-        print("can vote")
+# else:
+#     suceess = "not success"
 
-else:
-    print("cannot vote")
+# print(success)
 
-mark = int(input("enter student mark: "))
+# age = 18
+
+# if(age >= 19):
+#     print("can vote")
+
+# else:
+#     print("cannot vote")
+
+mark = int(input("enter the mark: "))
 
 if(mark >= 90):
-    grade = "topper"
+    grade = "talent"
+
 elif(mark >= 80 and mark <= 90):
-    grade = "intelligent"
+    grade  = "smart"
+
 elif(mark >= 70 and mark <= 80):
-    grade = "average"
-elif(mark >= 50 and mark <= 70):
-    grade = "better"
-elif(mark >= 40 and mark <= 50 ):
-    garde = "poor"
-elif(mark >= 35 and mark <= 40):
-    grade = "very poor"
+    grade = "good"
+
+elif(mark >= 60 and mark <= 70):
+    grade = "medium"
+
 else:
-    grade = "fail"
+    grade = "poor"
 
-print("student of the mark ->", grade)
-
-
-
-
-    
-
-
+print(grade)
 
 

@@ -1,128 +1,186 @@
 # fuction defination
 # first method
-# def calc_sum(a , b): # (a,b) parameters
+# def calc_sum(a,b):
 #     sum = a + b
 #     print(sum)
-#     return sum
+#     return
 
-# calc_sum(12,3) #function call , (1,2) arguments
-# calc_sum(23,5)
-# calc_sum(90,98)
+# calc_sum(7,9)
+# calc_sum(98,78)
+# calc_sum(978,675)
+         
 
 # defination second method
-
 # def calc_facto(a,b):
-#     facto = a * b
-#     return facto 
+#     facto = a*b
+#     print(facto)
+#     return
 
-# facto = calc_facto(2, 3) 
-# print(facto)
+# calc_facto(12,3)
+# calc_facto(90,98)
 
+# def print_hiiprajwal():
+#     print("hiiprajwal") 
+    
 
-# def print_hello():
-#     print("hello")
+# print_hiiprajwal()
+# print_hiiprajwal()
+# print_hiiprajwal()
 
-# print_hello()
-# print_nums = 
-# print_hello()
-
-# def calc_avg(a,b,c,d,e,f):
+# def calc_avg(a,b,c,d,e,f,):
 #     sum = a + b + c + d + e + f
-#     avg = sum / 6
+#     avg = sum/6
 #     print(avg)
-#     return avg#average of 3 numbers
+#     return avg
 
-# calc_avg(56,78,89,65,43,67)
+# calc_avg(80,82,83,84,86,84)
 
-#built-in function
+#built-in function # print, len, type, sum
 #under print function 
+# print function
 
-# print("apple", end = "")        #sep = " "
-# print("banana" , end = "")       # "/n" blacshashon  mtlb next line me
+# print("apple", end = "")
+# print("banana", end = "")
 # print("orange", end = "")
 
-#len function
+# len fuction
+
+# n = [1,23,45,6,7,6,6,9,0]
+# print(len(n))
+
+# n = (1,23,4,457,5)
+# type fuction
+# print(type(n))
+
+#range function # range mean = jo sequences ke sath column form me.
+
 # nums = [1,2,3,4,5,6]
-
-# print(len(nums))
-
-
-# type function
-#range fuction
-# nums = [1,2,3,4,5,6,7,8,9]
 # for i in range(len(nums)):
-#     print(len(nums))
+#     print(i, nums [i])
 
-#deafault parameter
+# num = [1,4,5,6,7,8,9]
+# i = 0 
+# while i < len(num):
+#     print(i, num[i]) 
+#     i += 1
 
-# def calc_product(a=9, b=4):
-#     print (a * b)
-#     return a * b
+# deafault parameter
+
+# def calc_product(a=12, b=3):
+#     print(a * b)
+#     return
 
 # calc_product()
+    
 
 # LETS PRACTICE
-# wap to prin the length of a list.(list is the parameter)
+# wap to print the length of a list.(list is the parameter)
 
 # cities = ["umred" , "nagpur", "mumbai", "pune", "delhi"]
-# fruit = ("apple", "banana", "watermelan", "mango", "pineapple", "orange")
+# fruit = ("apple", "banana", "watermelan", "mango", "pineapple", "orange", "email" )
 
-# def print_len(list):
+# def print_list(list):
 #     print(len(list))
 
-# print_len("cities")
-# print_len("fruit")
+# print_list(cities)
+# print_list(fruit)
 
 # wap to print the element of a list in a single line.(list is the parameter)
+# movies = ["dhuramndhar", "animal", "cat", "mat", "sta"]
+# anythings = ["prajwal", "raut", "sacrifide", "opprtunities", "authoriry"]
 
-# movies = ["manv", "kgf"," dhurandhar", "pushpa", "bahubali"]
-# game = ["fre fire","pubg", "subway", "temple run", "call duaty"]
 
 # def print_list(list):
 #     for item in list:
-#         print(item, end = " ")
+#         print(item, end = "")
 #     print()
 
 # print_list(movies)
-# print_list(game)
-    
+# print_list(anythings)
+
 # waf to find the factorial of n.(n is the parameter)
+# def calc_facto(a):
+#     facto = 1
+#     for i in range(1, a+1):
+#         facto = facto * i
+#     print(facto)
 
-# def calc_fact(n):
-#     fact = 1
-#     for i in range(1, n+1):
-#         fact *= i
-#     print(fact)
+# calc_facto(5)
+# wap to converter  usd to inr
 
-# calc_fact(5)
+# def clac_converter(usd_doller):
+#     inr_rs = usd_doller * 92
+#     print(inr_rs , "inr", usd_doller, "usd")
 
-#wap to convert usd to inr
+# clac_converter(10)
 
-# def converter(usd_val):
-#     inr_val = usd_val * 91
-#     print(usd_val, "usd =", inr_val, "inr")
+#check even and odd number
 
-# converter(34)
-
-# def find_number(a,b):
-#     if a % 2 == 0:
+# def bagh(a,b):
+#     if(a % 2 == 0):
 #         print(a, "even number")
 #     else:
-#         print(a, "odd number")
-#     if b % 2 == 0:
-#         print("even number")
+#         print(b, "odd number")
+#     if(b % 2 == 0):
+#         print(b, "even number")
 #     else:
-#         print("odd number")
+#         print(b, "odd number")
+
+# bagh(12,19)
+
+# recursion print_list(list, idx=0): 
+#  recursion
+
+# def show(n):
+#     if(n == 0):
+#         return
+#     print(n)
+#     show(n-1)
+#     print("pr")
+
+# show(12)
+
+# factorial
+# def fact(n):
+#     if(n == 0):
+#         return 1
+#     return fact(n-1) * n
+
+# print(fact(89))
     
-#     find_number(12,76)
+#sum
 
-# recursion
+# def calc_sum(n):
+#     if(n == 0):
+#         return 1
+#     return calc_sum(n-1) + n
 
-def show(n):
-    if(n == 9): #base
-        return
-    print(n)
-    show(n-1)
+# sum = calc_sum(15)
+# print(sum)
 
-show(100)
+#define to calculate the sum of first n natural numbers.
+
+# def calc_sum(n):
+#     if(n == 0):
+#         return 1
+#     return calc_sum(n-1) + n
+
+# sum = calc_sum(12)
+# print(sum)
+
+#  fuction to print all element in list
+
+# hint: use list & index as parameters(4
+
+# name = ("king", "does", "become", "ahead", "and so on")
+# sentences = ("some", "anywhere", "all about", "and so on")
+
+# print_list(name)
+# print_list(sentences)
+# def print_list(list, idx=0):
+#     if(idx, len(list)):
+#      return
+#     print(list, [idx])
+#     print_list(list, idx+1)
+
 

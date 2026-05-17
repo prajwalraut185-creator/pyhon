@@ -1,0 +1,1 @@
+common resources provide all time
