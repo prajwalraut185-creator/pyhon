@@ -92,36 +92,38 @@
 
 # POJECT 
 
-course = str(input("enter class: "))
-name = str(input("enter name: "))
-mark = int(input("enter mark: "))
-mothername = str(input("enter mother name: "))
+# course = str(input("enter class: "))
+# name = str(input("enter name: "))
+# mark = int(input("enter mark: "))
+# mothername = str(input("enter mother name: "))
 
-percentage = (mark / 900) * 100
-print(percentage)
+# percentage = (mark / 900) * 100
+# print(percentage)
 
-if percentage > 90:
-    print("GRADE A")
-elif percentage >= 75 and percentage <= 90:
-    print("GRADE B")
-elif percentage >= 60 and percentage <= 75:
-    print("GRADE C")
-elif percentage >= 35 and percentage <= 60:
-    print("GRADE D")
-else:
-    print("FAIL")
+# if percentage > 90:
+#     print("GRADE A")
+# elif percentage >= 75 and percentage <= 90:
+#     print("GRADE B")
+# elif percentage >= 60 and percentage <= 75:
+#     print("GRADE C")
+# elif percentage >= 35 and percentage <= 60:
+#     print("GRADE D")
+# else:
+#     print("FAIL")
 
-student = []
+# student = []
 
-student_data = {
-    "course" : course,
-    "name" : name,
-    "mothername" : mothername,
-    "mark" : mark,
-    "percentage" : percentage,
+# student_data = {
+#     "course" : course,
+#     "name" : name,
+#     "mothername" : mothername,
+#     "mark" : mark,
+#     "percentage" : percentage,
 
-}
+# }
 
-student.append(student_data)
+# student.append(student_data)
 
-print(student_data)
+# print(student_data)
+
+print("Git bilkul mast chal raha hai!")
